@@ -1,0 +1,333 @@
+@charset 'utf-8';
+body{height: auto;color: #f7f7f7;}
+body{
+    #NexMain{
+        height: auto;
+        min-width: 1200px;
+    }
+}
+//主页顶部图片区域
+.NexHome{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    .NexHomeImg{
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        margin-left: -150px;
+        width: 300px;
+        height: 140px;
+        background: url("../images/products-nex/nex-home-words.png");
+        background-size: cover;
+    }
+    .NexHomeWordsWrap{
+        position: absolute;
+        top: 280px;
+        left: 50%;
+        margin-left: -150px;
+        width: 300px;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            float: left;
+            width: 100px;
+            height: 22px;           
+            a{
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #fff;
+            }
+            &::after{
+                content: '';
+                position: relative;
+                display: inline-block;
+                top:0;
+                right:0;
+                width: 14px;
+                height: 2px;
+                background: #fff;
+                transition:all 0.2s linear 
+            }
+        }
+        li:hover{
+            &::after{
+                width: 60px;
+            }
+        }
+        
+    }
+    img{
+        width: 190%;
+        margin-left: -45%;
+    }
+}
+//轮播图区域
+.NexSwiper-wrap{
+    position: relative;
+        width: 90%;
+        height: 220px;
+        margin: 0 auto;
+        background: #fff;
+    .NexHomePhone{
+        width: 70%;
+        height: 220px;       
+        .swiper-NexWrap{
+            .swiper-NexSlide{
+                .NexPhoneWrap{
+                    .NexPhoneGoods{
+                        width: 100px;
+                        float: left;
+                        text-align: center;
+                        box-sizing: border-box;
+                        margin-right: 40px;
+                        margin-top: 40px;
+                        img{
+                            width: 100px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: black
+                        }
+                        .phoneGoodsStock{
+                            width: 60px;
+                            margin: 0 auto;
+                            border-radius: 20px;
+                            margin-top: 5px;
+                            border: 1px solid red;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .NexSwiperBtnP{
+        width: 50px;
+        height: 50px;
+        left: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+    .NexSwiperBtnN{
+        width: 50px;
+        height: 50px;
+        right: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+}   
+.NexPhoneDes{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 50px;
+    .NexPhoneLi{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .NexPhoneLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 200px;
+            text-align: center;
+            .NexPhoneLi-wrapPhone{
+                height: 24px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .NexPhoneLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .NexPhoneLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+    .NexPhoneLi:nth-child(even){
+        .NexPhoneLi-wrap{
+            left: 80px;
+        }
+    }
+} 
+.NexPhoneDesLR,.NexPhoneParts{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 50px;
+    background: #f7f7f7;
+    .NexPhoneLRLi:nth-child(odd),
+    .NexPhonePartsLi:nth-child(odd){
+        margin-right: 4%;
+    }
+    .NexPhonePartsLi{
+        margin-bottom: 50px;
+    }
+    .NexPhoneLRLi,.NexPhonePartsLi{
+        position: relative;
+        float: left;
+        width: 48%;
+        img{
+            width: 100%;
+        }
+        .NexPhoneLRLi-wrap,
+        .NexPhonePartsLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 60px;
+            text-align: center;
+            .NexPhoneLRLi-wrapPhone,
+            .NexPhonePartsLi-wrapPhone{
+                height: 24px;
+                font-size: 18px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .NexPhonePartsLi-wrapTitle{
+                margin-bottom: 25px;
+            }
+            .NexPhoneLRLi-wrapTitle,
+            .NexPhonePartsLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .NexPhoneLRLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+}
+.NexProduct{
+    position: relative;
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    background: #f7f7f7;
+    img{
+        width: 25%;
+    }
+    a{
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        width: 100px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 18px;
+        color: #008ddc;
+        &::after{
+            content: '';
+            position: absolute;
+            display: inline-block;
+            top:30px;
+            right:43px;
+            width: 14px;
+            height: 2px;
+            background: #008ddc;
+            transition:all 0.2s linear 
+        }
+    }
+    a:hover{
+        &::after{
+            width: 60%;
+            right: 20px;
+        }
+    } 
+}
+
+
+

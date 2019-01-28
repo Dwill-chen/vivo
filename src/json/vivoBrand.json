@@ -1,0 +1,483 @@
+{
+    "brand": {
+        "home":{"img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/6b11209955c521841618884609212134.jpg",
+            "title": "vivo乐享非凡",
+            "details": "以科技和时尚为消费者时刻创造非凡生活",
+            "more": "了解我们"
+        },
+        "content":[{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181107/fc41e8368f24895da5ed3a474d1eca83.jpg",
+            "title": "第四代屏幕指纹技术加持，新奇有趣的自拍体验",
+            "details": "vivo X23星芒版火爆开售，采用独特的工艺在3D背壳上雕刻出星光纹理，璀璨神秘，如宇宙般神秘梦幻。",
+            "more": "查看详情",
+            "date": "2018-11-05",
+            "browse": "324"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181107/dde6f2ac8809838b8f295f795d1fdf08.jpg",
+            "title": "人工智能研发加速vivo 领跑5G智慧手机时代",
+            "details": "vivo于2018年8月份成功实现vivo 5G First call调通，并计划于12月展示基于5G调通的软件应用层面开发成果。",
+            "more": "查看详情",
+            "date": "2018-10-24",
+            "browse": "419"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/6bb08655906c58d59e36ecbbf34d6a2a.jpg",
+            "title": "vivo影像寻城记 第五季 ",
+            "details": "和vivo X23一起发现异域之美",
+            "more": "了解更多",
+            "date": "",
+            "browse": ""
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/2d8cb71dd67531f2b70ff68ec0c870f4.jpg",
+            "title": "CALL MY NAME",
+            "details": "vivo LOGO PHONE MV",
+            "more": "观看视频",
+            "date": "",
+            "browse": ""
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/4aab2bb36407b185ecac7026df388c36.jpg",
+            "title": "刘雯和vivo的时尚之旅",
+            "details": "型走纽约时装周",
+            "more": "了解更多",
+            "date": "",
+            "browse": ""
+        }],
+        "phoneDetail": [{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181112/e6b01985a691e5f53a49c0fc01c8f7bb.png",
+            "title": "第四代光电屏幕指纹",
+            "details": "快意解锁，科技就要先人一步",
+            "describe": "vivo第四代光电屏幕指纹技术使用了OLED屏幕像素自发光源，F/1.5超大光圈，720dpi超高分辨率的指纹像素密度，为更快的解锁速度提供硬件保障。vivo还首创首帧优化技术，并加入了智能降噪机制，加上AI的加持，X23的屏幕指纹的识别率比X21提升40%，亮屏下的解锁时间只需要0.35s 。vivo还在第四代光电屏幕指纹上采用了DSP加速技术，在刁钻场景下的解锁速度显著提升30%。",
+            "know": "了解X23全面屏 8GB+128GB"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181031/dafb6b6b6eaf1cf65a77fe04ecb762a0.png",
+            "title": "升降式前置摄像头 ",
+            "details": "自拍随心，非凡一升",
+            "describe": "行业首创升降式前置摄像头，成就零界全面屏。 将前置摄像头隐藏在屏幕下方，进入自拍界面摄像头自动升起，退出自动降下。连续升降50000次无故障，配合不锈钢壳体，可承受强大拉力及扭转力，智能检测到外力后自动收回。升起行程耗时仅1秒，随拍随到。 *前置摄像头连续升降50000次无故障，为我司实验室数据。",
+            "know": "了解NEX旗舰版8GB+256GB"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181031/3b8124585ceae1e96cbe9620410c8e9a.png",
+            "title": "Jovi智能语音助手 ",
+            "details": "面向未来的人工智能体验",
+            "describe": "通过语音或Jovi AI独立按键唤醒，全新Jovi智能语音助手即刻提供超越想象的AI体验，迅速触达手机高频服务。解放你的双手，一句话搞定各种复杂操作。更有我的教学命令功能，养成你的AI管家，随时随地一触即发。",
+            "know": "了解NEX旗舰版8GB+256GB",
+            "more": "观看视频"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181031/100238ea6127530c5895234b0f07fa96.png",
+            "title": "AI智慧拍照",
+            "details": "升级你的美",
+            "describe": "通过AI场景识别以及AI滤镜及时调整成像效果，AI逆光拍照效果出众，P3色域拍照色彩更丰富准确。更智慧的AI双摄拍照新体验，让你的美照更上一个层次。",
+            "know": "了解X23全面屏 8GB+128GB"
+        }],
+        "video":{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/66fe858fdeb02998bb76dd1c705c742e.jpg"
+        },
+        "activity": [{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181030/77bfe86046b43d193b33613fed208185.jpg",
+            "title": "王者荣耀电竞盛典",
+            "details": "10月27日，vivo联合王者荣耀、高通共同举办的王者荣耀周年庆vivo电竞盛典正式落下帷幕。",
+            "more": "查看详情"
+        },{
+            "img": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/brand/20181106/33b5b121fd66a860cdf3e11754a410bb.jpg",
+            "title": "2018 vivo 趣炫泡泡跑",
+            "details": "历时两个月，跨越五座城市，泡泡跑以其轻松、快乐、新奇的模式成为了国内白领以及年轻人的娱乐新宠。",
+            "more": "查看详情"
+        }]
+    },
+    "succession":{
+        "NEXsuc":[
+            {
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180605/20180605201636604320_original.png",
+                "phone":"NEX旗舰版",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180605/20180605201647284128_original.png",
+                "phone":"NEX & NEX屏幕指纹版",
+                "Stock":""
+            }
+        ],
+        "NEXDes":{
+            "NEXDesTB":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/13f7a962234fe3104ce9dc79239015b0.jpg",
+                "phone":"X23",
+                "title":"AI非凡摄影",
+                "des":"超大广角 发现更多美",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/2eab0b9e977a0faa6f9041d488fef0df.jpg",
+                "phone":"X21",
+                "title":"AI智慧拍照",
+                "des":"照亮你的美",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "NEXDesLR":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/c868284740899b1454caebfd8d2e454a.jpg",
+                "phone":"X21s",
+                "title":"屏幕指纹手机",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180905/139de2e21b55c6fa8ccbf88ce1cb934c.jpg",
+                "phone":"X21i",
+                "title":"2400万美颜自拍",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "NEXMore":[
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/Y/accessories1_1.jpg",
+                    "name":"XE600i",
+                    "title":"旗舰品质 佩戴舒适",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories1_2.jpg",
+                    "name":"XE680",
+                    "title":"半入耳式Hi-Fi耳机",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories2_1.jpg",
+                    "name":"9V/2A闪充",
+                    "title":"原装双引擎闪充充电器",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories2_2.jpg",
+                    "name":"10V/2.25A闪充",
+                    "title":"原装闪充充电器",
+                    "buy":"立即购买"
+                }
+            ]
+        },
+        "Xsuc":[
+            {
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180831/bd9b5c3f5fdee7282749b4986d4e38b3.png",
+                "phone":"X23",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181029/6d276a4cb84a2d55cbba56cf808706d8.jpg",
+                "phone":"X21s",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"X21i",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"X20",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"X21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180831/bd9b5c3f5fdee7282749b4986d4e38b3.png",
+                "phone":"X23",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181029/6d276a4cb84a2d55cbba56cf808706d8.jpg",
+                "phone":"X21s",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"X21i",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"X20",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"X21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180831/bd9b5c3f5fdee7282749b4986d4e38b3.png",
+                "phone":"X23",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181029/6d276a4cb84a2d55cbba56cf808706d8.jpg",
+                "phone":"X21s",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"X21i",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"X20",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"X21 FIFA世界杯非凡版",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180831/bd9b5c3f5fdee7282749b4986d4e38b3.png",
+                "phone":"X23",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181029/6d276a4cb84a2d55cbba56cf808706d8.jpg",
+                "phone":"X21s",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"X21i",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"X20",
+                "Stock":"停产"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"X21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            }
+        ],
+        "XDes":{
+            "XDesTB":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/13f7a962234fe3104ce9dc79239015b0.jpg",
+                "phone":"X23",
+                "title":"AI非凡摄影",
+                "des":"超大广角 发现更多美",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/2eab0b9e977a0faa6f9041d488fef0df.jpg",
+                "phone":"X21",
+                "title":"AI智慧拍照",
+                "des":"照亮你的美",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "XDesLR":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/c868284740899b1454caebfd8d2e454a.jpg",
+                "phone":"X21s",
+                "title":"屏幕指纹手机",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180905/139de2e21b55c6fa8ccbf88ce1cb934c.jpg",
+                "phone":"X21i",
+                "title":"2400万美颜自拍",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "XMore":[
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/Y/accessories1_1.jpg",
+                    "name":"XE600i",
+                    "title":"旗舰品质 佩戴舒适",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories1_2.jpg",
+                    "name":"XE680",
+                    "title":"半入耳式Hi-Fi耳机",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories2_1.jpg",
+                    "name":"9V/2A闪充",
+                    "title":"原装双引擎闪充充电器",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories2_2.jpg",
+                    "name":"10V/2.25A闪充",
+                    "title":"原装闪充充电器",
+                    "buy":"立即购买"
+                }
+            ]
+        },
+        "Zsuc":[
+            {
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180929/294fe86702f66a40bd3184ae6d038710.png",
+                "phone":"Z3",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180928/f6d5c8087bd7ab01403e293cbe83709f.png",
+                "phone":"Z3i",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180526/20180526145548104691_original.png",
+                "phone":"Z1",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181105/6d04b32e9e25b8a146649da5aa40def9.jpg",
+                "phone":"Z1青春版",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180622/20180622150843414926_original.jpg",
+                "phone":"Z1i",
+                "Stock":""
+            }
+        ],
+        "ZDes":{
+            "ZDesTB":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181017/19115d3d1c5de71a30b5768026f900a0.jpg",
+                "phone":"Z1",
+                "title":"全面实力派",
+                "des":"AI更畅快",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/5afcc5877face76ee511b37e454f55a4.jpg",
+                "phone":"Z1青春版",
+                "title":"全面实力派",
+                "des":"AI更畅快",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "ZDesLR":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/1ce15734dd7fcf3103a12b03f56887f6.jpg",
+                "phone":"Z3i",
+                "title":"2400万美颜自拍",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181119/ca5dd7c895ad45b8faccea64c7752f9c.jpg",
+                "phone":"Z1i",
+                "title":"128GB大内存",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "ZMore":[
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180725/20180725142459711637_original.jpg",
+                    "name":"5V/2A充电",
+                    "title":"vivo原装旅行充电器",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180725/20180725142624383342_original.jpg",
+                    "name":"USB数据线",
+                    "title":"原装Micro USB数据线",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/Y/accessories1_1.jpg",
+                    "name":"XE600i",
+                    "title":"旗舰品质 佩戴舒适",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories1_2.jpg",
+                    "name":"XE680",
+                    "title":"半入耳式Hi-Fi耳机",
+                    "buy":"立即购买"
+                }
+            ]
+        },
+        "Ysuc":[
+            {
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180831/bd9b5c3f5fdee7282749b4986d4e38b3.png",
+                "phone":"Y23",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"Y21i",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"Y20",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"Y21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181029/6d276a4cb84a2d55cbba56cf808706d8.jpg",
+                "phone":"Y21s",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20181015/2d8c54f47f62d153eba014c384302768.jpg",
+                "phone":"Y21i",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180118/2018011809491176967_original.png",
+                "phone":"Y20",
+                "Stock":""
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"Y21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20180521/20180521101151623691_original.png",
+                "phone":"X21 FIFA世界杯非凡版",
+                "Stock":"缺货"
+            }
+        ],
+        "YDes":{
+            "YDesTB":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181105/e58a915229217d8f53208717e59b11cb.jpg",
+                "phone":"Y93",
+                "title":"高颜值水滴屏",
+                "des":"大电量长续航",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181023/6861ec0cb7600e2a44155cc05ea13109.jpg",
+                "phone":"Y73",
+                "title":"大屏大内存",
+                "des":"全面屏手机",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180910/ea109c727601fa4601fb58594cc77b1b.jpg",
+                "phone":"Y85",
+                "title":"AI智慧双摄",
+                "des":"拍照更出色",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "YDesLR":[{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181105/8225f44c431cba85c96a34e7f17aaf63.jpg",
+                "phone":"Y83",
+                "title":"Jovi AI助理",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            },{
+                "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181023/ff78da9060d34ec063b6624ed9ef7963.jpg",
+                "phone":"Y81s",
+                "title":"AI美颜自拍",
+                "des":"",
+                "know":"进一步了解",
+                "buy":"立即购买"
+            }],
+            "YMore":[
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/Y/accessories1_1.jpg",
+                    "name":"XE600i",
+                    "title":"旗舰品质 佩戴舒适",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/X/accessories1_2.jpg",
+                    "name":"XE680",
+                    "title":"半入耳式Hi-Fi耳机",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180725/20180725142459711637_original.jpg",
+                    "name":"原装正品",
+                    "title":"vivo原装旅行充电器",
+                    "buy":"立即购买"
+                },
+                {
+                    "img":"https://wwwstatic.vivo.com.cn/vivoportal/web/dist/constFile/productSeries/Xplay/accessories2_2.jpg",
+                    "name":"USB数据线",
+                    "title":"vivo原装USB数据线",
+                    "buy":"立即购买"
+                }
+            ]
+        }
+    }
+}
+

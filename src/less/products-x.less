@@ -1,0 +1,331 @@
+@charset 'utf-8';
+body{height: auto;color: #f7f7f7;}
+body{
+    #XMain{
+        height: auto;
+        min-width: 1200px;
+    }
+}
+//主页顶部图片区域
+.XHome{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    .XHomeImg{
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        width: 288px;
+        height: 120px;
+        background: url("../images/products-x/X-home-words.png");
+        background-size: cover;
+    }
+    .XHomeWordsWrap{
+        position: absolute;
+        top: 60%;
+        left: 81%;
+        margin-left: -11%;
+        width: 22%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            float: left;
+            width: 100px;
+            height: 22px;           
+            a{
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+            }
+            &::after{
+                content: '';
+                position: relative;
+                display: inline-block;
+                top:0;
+                right:0;
+                width: 14px;
+                height: 2px;
+                background: #008ddc;
+                transition:all 0.2s linear 
+            }
+        }
+        li:hover{
+            &::after{
+                width: 60px;
+            }
+        }
+        
+    }
+    img{
+        width: 190%;
+        margin-left: -45%;
+    }
+}
+//轮播图区域
+.XSwiper-wrap{
+    position: relative;
+        width: 90%;
+        height: 220px;
+        margin: 0 auto;
+        background: #fff;
+    .XHomePhone{
+        width: 70%;
+        height: 220px;       
+        .swiper-XWrap{
+            .swiper-XSlide{
+                .XPhoneWrap{
+                    .XPhoneGoods{
+                        width: 100px;
+                        float: left;
+                        text-align: center;
+                        box-sizing: border-box;
+                        margin-right: 40px;
+                        margin-top: 40px;
+                        img{
+                            width: 100px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: black
+                        }
+                        .phoneGoodsStock{
+                            width: 60px;
+                            margin: 0 auto;
+                            border-radius: 20px;
+                            margin-top: 5px;
+                            border: 1px solid red;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .XSwiperBtnP{
+        width: 50px;
+        height: 50px;
+        left: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+    .XSwiperBtnN{
+        width: 50px;
+        height: 50px;
+        right: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+}   
+.XPhoneDes{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 50px;
+    .XPhoneLi{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .XPhoneLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 200px;
+            text-align: center;
+            .XPhoneLi-wrapPhone{
+                height: 24px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .XPhoneLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .XPhoneLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+    .XPhoneLi:nth-child(even){
+        .XPhoneLi-wrap{
+            left: 80px;
+        }
+    }
+} 
+.XPhoneDesLR,.XPhoneParts{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 50px;
+    background: #f7f7f7;
+    .XPhoneLRLi:nth-child(odd),
+    .XPhonePartsLi:nth-child(odd){
+        margin-right: 4%;
+    }
+    .XPhonePartsLi{
+        margin-bottom: 50px;
+    }
+    .XPhoneLRLi,.XPhonePartsLi{
+        position: relative;
+        float: left;
+        width: 48%;
+        img{
+            width: 100%;
+        }
+        .XPhoneLRLi-wrap,
+        .XPhonePartsLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 60px;
+            text-align: center;
+            .XPhoneLRLi-wrapPhone,
+            .XPhonePartsLi-wrapPhone{
+                height: 24px;
+                font-size: 18px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .XPhonePartsLi-wrapTitle{
+                margin-bottom: 25px;
+            }
+            .XPhoneLRLi-wrapTitle,
+            .XPhonePartsLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .XPhoneLRLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+}
+.XProduct{
+    position: relative;
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    background: #f7f7f7;
+    img{
+        width: 25%;
+    }
+    a{
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        width: 100px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 18px;
+        color: #008ddc;
+        &::after{
+            content: '';
+            position: absolute;
+            display: inline-block;
+            top:30px;
+            right:43px;
+            width: 14px;
+            height: 2px;
+            background: #008ddc;
+            transition:all 0.2s linear 
+        }
+    }
+    a:hover{
+        &::after{
+            width: 60%;
+            right: 20px;
+        }
+    } 
+}
+
+

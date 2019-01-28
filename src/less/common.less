@@ -1,0 +1,334 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'iconfont';  /* project id 920501 */
+    src: url('//at.alicdn.com/t/font_920501_n9v4nye1v3.eot');
+    src: url('//at.alicdn.com/t/font_920501_n9v4nye1v3.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_920501_n9v4nye1v3.woff') format('woff'),
+    url('//at.alicdn.com/t/font_920501_n9v4nye1v3.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_920501_n9v4nye1v3.svg#iconfont') format('svg');
+  }
+//返回顶部
+#gotop1 {
+    width: 80px;
+    position: fixed;
+    bottom: 90px;
+    cursor: pointer;
+    z-index: 99998;
+    right: 50%;
+    margin-right: -620px;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 924762 */
+    src: url('//at.alicdn.com/t/font_924762_dtaqog02zj5.eot');
+    src: url('//at.alicdn.com/t/font_924762_dtaqog02zj5.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_924762_dtaqog02zj5.woff') format('woff'),
+    url('//at.alicdn.com/t/font_924762_dtaqog02zj5.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_924762_dtaqog02zj5.svg#iconfont') format('svg');
+}
+.brandIconfont{
+    position: fixed;
+    right: 40px;
+    bottom: 130px;
+    cursor: pointer;
+    font-family: "iconfont" !important;
+    font-size: 80px !important;
+    font-style: normal !important;
+    color: gray;
+    display: none;
+}
+.brandIconfont:hover{
+    color: #008ddc
+}
+//回到顶部结束
+.iconfont{
+    font-family: 'iconfont';
+    font-size: 22px;
+    font-style: normal;
+}
+.glyphicon-menu-hamburger{
+    font-size:20px;
+    color:#fff;
+}
+.user-show .iconfont{
+    color:#b2b2b2;
+}
+/* 头部 */
+header{
+    width:100%;
+    background-color: rgba(26,26,26,.9);
+    min-width: 1200px;
+    z-index: 5;
+}
+.tab-bgShow{
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    height: 240px;
+    display: none;
+    background-color: rgba(26,26,26,.9);
+    transition:all 0.25s linear;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+header .header-box{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+}
+header .login{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 15;
+}
+header nav{
+    width:100%;
+    
+}
+header .nav{
+    vertical-align: top;
+    margin:0 auto;
+    width: 70%;
+    line-height: 44px;
+    height: 100%;
+    display: flex;
+    justify-content:space-between; 
+}
+header .nav>li{
+    /* width:10%; */
+    height: 100%;
+    z-index: 10;
+    display: inline-block;
+    position: relative;
+}
+header .nav>li>a{ 
+    padding:0 15px;
+    color:#fff;
+    display: block;
+    height: 100%;
+    line-height: 44px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+header .nav li a:hover{
+    color: #b2b2b2;
+}
+.tab-show{
+    width:800px;
+    height: 230px;
+    padding-bottom: 10px;
+    position: absolute;
+    left:-190px;
+    top:44px;
+    color:#fff;
+    background-color: transparent;
+    display: none;
+    transition:all 0.5s linear;
+    vertical-align: top;
+    overflow-x: hidden;
+    opacity: 0;
+    
+}
+.image-box{
+    display: inline-block;
+    width:200px;
+    height: 90%;
+}
+
+.image-box img{
+    width:100%;
+    height: 100%;
+}
+.tab-show>ul{
+    vertical-align: middle;
+    display: inline-block;
+    width:30%;
+    text-align: left;
+}
+.tab-show>ul>li:hover{
+    color: #b2b2b2;
+}
+header .nav li:hover > .tab-show{
+    position: absolute;
+    top:44px;
+    opacity: 1;
+    display: block;
+}
+.user{
+    position: absolute;
+    right:0;
+    top:0;
+    line-height: 44px;
+    width:170px;
+    height: 100%;
+    text-align: center;
+}
+.user span{
+//    padding-right: 20px;
+   z-index: 10;
+}
+.user span:nth-child(1){
+    margin-right: 30px;
+}
+.user span i{
+    color: #fff;
+}
+.user span i:hover{
+    cursor: pointer;
+    color: #b2b2b2;
+}
+.user-mark{
+    position:fixed;
+    left:0;
+    top:44px;
+    right:0;
+    bottom: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.13);
+    z-index: 10;
+}
+.user-icon{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.user-icon .user-show{
+    position: absolute;
+    top:43px;
+    right:3px;
+    width:180px;
+    height: 250px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top:10px;
+    z-index: 10;
+}
+.user-mark,.user-icon .user-show{
+    display: none;
+}
+.user-icon:hover > .user-mark{
+    display: block;
+}
+.user-icon:hover > .user-show{
+    display: block;
+}
+.user-icon .user-show p{
+    padding-left:20px;
+    height:38px;
+}
+
+.user-login{
+    color:#000;
+}
+.userInfos{
+    // padding-left: 6px !important;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+    color:#000;
+    padding-left:4px !important;
+}
+.user-icon .user-show p a{
+    font-size: 14px;
+}
+.user-icon .user-show p:last-child{
+    color:red;
+    padding-left: 40px !important;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
+/* 内容 */
+
+/* 尾部 */
+.foot {
+    margin:0 auto;
+    padding:30px 0 40px;
+    width:80%;
+    border-top:1px solid rgba(136,136,136,0.3);
+    min-width: 1200px;
+    color:#000;
+}
+.foot .foot-service span {
+    font-size:12px;
+    color:#666;
+}
+.foot .foot-list {
+    margin-bottom:40px;
+    padding:20px 0 30px;
+    width:79%;
+    list-style:none;
+    display:inline-block;
+    vertical-align: top;
+}
+.foot .foot-list li {
+    width:19.5%;
+    display:inline-block;
+    vertical-align:top;
+}
+.foot .foot-list li a {
+    text-decoration:none;
+    font-size:13px;
+    display:block;
+    color:#333;
+    margin:5px 0;
+}
+.foot .foot-list li a:hover {
+    color:#008cd6;
+}
+.foot .foot-list li h5 {
+    margin-bottom:20px;
+    color:#333;
+}
+.foot .service {
+    display:inline-block;
+    width:20%;
+    vertical-align: top;
+    text-align: right;
+}
+.service .serv {
+    margin:15px 0;
+    font-size:24px;
+    color:#008cd6;
+    cursor: pointer;
+}
+.service .telphone {
+    font-size:24px;
+}
+.service > span {
+    font-size:12px;
+    color:#666;
+    display:block;
+}
+.foot .copyright {
+    margin-top:40px;
+    font-size:12px;
+}
+.foot .copyright .foot-copy-left {
+    width:80%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.foot .copyright .foot-copy-left .foot-img {
+    width:18px;
+    display:inline-block;
+    vertical-align: top;
+}
+.foot .copyright .foot-copy-left .foot-img img {
+    width:100%;
+}
+.foot .copyright .foot-copy-right {
+    margin-left:50px;
+    display:inline-block;
+    vertical-align: top;
+}
+.copyright .foot-copy-right .foot-vivo {
+    margin:0 15px;
+    cursor:pointer;
+}
+.copyright .foot-copy-right .foot-vivo:hover{
+    color:#008cd6;
+}

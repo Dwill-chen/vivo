@@ -1,0 +1,333 @@
+@charset 'utf-8';
+body{height: auto;color: #f7f7f7;}
+body{
+    #YMain{
+        height: auto;
+        min-width: 1200px;
+    }
+}
+//主页顶部图片区域
+.YHome{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    .YHomeImg{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 229px;
+        height: 120px;
+        background: url("https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20180910/f54746093763bc3fb839b17bbfd66782.png");
+        background-size: cover;
+    }
+    .YHomeWordsWrap{
+        position: absolute;
+        top: 60%;
+        left: 14%;
+        margin-left: -11%;
+        width: 22%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            float: left;
+            width: 100px;
+            height: 22px;           
+            a{
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+            }
+            &::after{
+                content: '';
+                position: relative;
+                display: inline-block;
+                top:0;
+                right:0;
+                width: 14px;
+                height: 2px;
+                background: #008ddc;
+                transition:all 0.2s linear 
+            }
+        }
+        li:hover{
+            &::after{
+                width: 60px;
+            }
+        }
+        
+    }
+    img{
+        width: 190%;
+        margin-left: -45%;
+    }
+}
+//轮播图区域
+.YSwiper-wrap{
+    position: relative;
+        width: 90%;
+        height: 220px;
+        margin: 0 auto;
+        background: #fff;
+    .YHomePhone{
+        width: 70%;
+        height: 220px;       
+        .swiper-YWrap{
+            .swiper-YSlide{
+                .YPhoneWrap{
+                    .YPhoneGoods{
+                        width: 100px;
+                        float: left;
+                        text-align: center;
+                        box-sizing: border-box;
+                        margin-right: 40px;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        img{
+                            width: 100px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: black
+                        }
+                        .phoneGoodsStock{
+                            width: 60px;
+                            margin: 0 auto;
+                            border-radius: 20px;
+                            margin-top: 5px;
+                            border: 1px solid red;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .YSwiperBtnP{
+        width: 50px;
+        height: 50px;
+        left: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+    .YSwiperBtnN{
+        width: 50px;
+        height: 50px;
+        right: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+}   
+.YPhoneDes{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    overflow: hidden;
+    margin-top: 50px;
+    .YPhoneLi{
+        position: relative;
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+        .YPhoneLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 200px;
+            text-align: center;
+            .YPhoneLi-wrapPhone{
+                height: 24px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .YPhoneLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .YPhoneLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+    .YPhoneLi:nth-child(even){
+        .YPhoneLi-wrap{
+            left: 80px;
+        }
+    }
+} 
+.YPhoneDesLR,.YPhoneParts{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    background: #f7f7f7;
+    .YPhoneLRLi:nth-child(odd),
+    .YPhonePartsLi:nth-child(odd){
+        margin-right: 4%;
+    }
+    .YPhonePartsLi{
+        margin-bottom: 50px;
+    }
+    .YPhoneLRLi,.YPhonePartsLi{
+        position: relative;
+        float: left;
+        width: 48%;
+        img{
+            width: 100%;
+        }
+        .YPhoneLRLi-wrap,
+        .YPhonePartsLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 60px;
+            text-align: center;
+            .YPhoneLRLi-wrapPhone,
+            .YPhonePartsLi-wrapPhone{
+                height: 24px;
+                font-size: 18px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .YPhonePartsLi-wrapTitle{
+                margin-bottom: 25px;
+            }
+            .YPhoneLRLi-wrapTitle,
+            .YPhonePartsLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .YPhoneLRLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+}
+.YProduct{
+    position: relative;
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    background: #f7f7f7;
+    img{
+        width: 25%;
+    }
+    a{
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        width: 100px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 18px;
+        color: #008ddc;
+        &::after{
+            content: '';
+            position: absolute;
+            display: inline-block;
+            top:30px;
+            right:43px;
+            width: 14px;
+            height: 2px;
+            background: #008ddc;
+            transition:all 0.2s linear 
+        }
+    }
+    a:hover{
+        &::after{
+            width: 60%;
+            right: 20px;
+        }
+    } 
+}
+
+
+

@@ -1,0 +1,142 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'iconfont';  /* project id 920501 */
+  src: url('//at.alicdn.com/t/font_920501_g9ffpqa6ze9.eot');
+  src: url('//at.alicdn.com/t/font_920501_g9ffpqa6ze9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_920501_g9ffpqa6ze9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_920501_g9ffpqa6ze9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_920501_g9ffpqa6ze9.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family: 'iconfont';
+  font-style: normal;
+}
+body{
+  background-color: #f7f7f7;
+}
+.content{
+  width: 100%;
+  background: #F8D8ED;
+  height: 713px;
+}
+.login-box{
+  background: url('http://edenstatic.vivo.com.cn/eden/advertisement/201811/201811161246232533.jpg') no-repeat center top /cover;
+  background-size: 1200px 710px;
+  margin: 0 auto;
+  width:1200px;
+  height: 710px;
+}
+header {
+  width: 500px;
+}
+.img-box{
+  width:97px;
+  height:97px;
+  margin-left: 35px;
+}
+.img-box img{
+  width:100%;
+}
+main {
+  width: 300px;
+  margin: 50px auto;
+}
+main .form-box{
+  width:420px;
+  height:486px;
+  background-color: #fff;
+  margin-left: 320px;
+}
+main .title{
+  margin: 0 auto;
+  width:300px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 15px;
+  text-shadow: 2px 2px 1px gray;
+  font-weight: lighter;
+  font-size: 26px;
+  border-bottom: 2px solid #333;
+}
+main [name="myForm"]{
+  margin:0 auto;
+  width:300px;
+  height: 207px;
+}
+main [name="myForm"] .input-box {
+  width: 100%;
+  height: 35px;
+  margin: 25px auto;
+  position: relative;
+}
+main [name="myForm"] .input-box::after {
+  display: none;
+  content: attr(data-msg);
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+main [name="myForm"] .error::after {
+  display: block;
+}
+main [name="myForm"] input:not(.remember) {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  padding-left: 8px;
+  -webkit-transition: border-color 0.25s linear;
+  transition: border-color 0.25s linear;
+  font-size: 16px;
+}
+main [name="myForm"] input:focus {
+  border-color: cornflowerblue;
+}
+main [name="myForm"] .info-box {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+main [name="myForm"] .login-register-btn {
+  display: block;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin: 0 auto;
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 8px;
+  cursor: pointer;
+  -webkit-transition: background .25s linear;
+  transition: background .25s linear;
+}
+main [name="myForm"] .login-register-btn:hover {
+  background: #333;
+  opacity: .75;
+}
+main [name="myForm"] a {
+  color: #333;
+}
+main [name="myForm"] a:hover {
+  text-decoration: underline;
+}
+main [name="myForm"] .hidden {
+  display: none !important;
+}
+footer{
+  margin-top: 120px;
+  width:100%;
+  height: 80px;
+  background-color: #f7f7f7;
+}
+footer>div{
+  margin: 10px 0;
+  text-align: center;
+  font-size: 12px;
+}
+footer>div span{
+  margin-right: 20px;
+}

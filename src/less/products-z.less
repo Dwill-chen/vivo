@@ -1,0 +1,336 @@
+@charset 'utf-8';
+body{height: auto;color: #f7f7f7;}
+body{
+    #ZMain{
+        height: auto;
+        min-width: 1200px;
+    }
+}
+//主页顶部图片区域
+.ZHome{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    .ZHomeImg{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        width: 270px;
+        height: 120px;
+        background: url("https://wwwstatic.vivo.com.cn/vivoportal/files/image/series/20181017/3fed0e007ead5541b060cb78b0e71368.png");
+        background-size: cover;
+    }
+    .ZHomeWordsWrap{
+        position: absolute;
+        top: 60%;
+        left: 14%;
+        margin-left: -7%;
+        width: 15%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        li{
+            float: left;
+            width: 100px;
+            height: 22px;           
+            a{
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+            }
+            &::after{
+                content: '';
+                position: relative;
+                display: inline-block;
+                top:0;
+                right:0;
+                width: 14px;
+                height: 2px;
+                background: #008ddc;
+                transition:all 0.2s linear 
+            }
+        }
+        li:hover{
+            &::after{
+                width: 60px;
+            }
+        }
+        
+    }
+    img{
+        width: 190%;
+        margin-left: -45%;
+    }
+}
+//轮播图区域
+.ZSwiper-wrap{
+    position: relative;
+        width: 90%;
+        height: 220px;
+        margin: 0 auto;
+        background: #fff;
+    .ZHomePhone{
+        width: 70%;
+        height: 220px;       
+        .swiper-ZWrap{
+            .swiper-ZSlide{
+                .ZPhoneWrap{
+                    .ZPhoneGoods{
+                        width: 100px;
+                        float: left;
+                        text-align: center;
+                        box-sizing: border-box;
+                        margin-right: 40px;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        img{
+                            width: 100px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: black
+                        }
+                        .phoneGoodsStock{
+                            width: 60px;
+                            margin: 0 auto;
+                            border-radius: 20px;
+                            margin-top: 5px;
+                            border: 1px solid red;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ZSwiperBtnP{
+        width: 50px;
+        height: 50px;
+        left: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+    .ZSwiperBtnN{
+        width: 50px;
+        height: 50px;
+        right: 60px;
+        border: 2px solid #008ddc;
+        background-size: 15px 44px !important;
+    }
+}   
+.ZPhoneDes{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    overflow: hidden;
+    margin-top: 50px;
+    .ZPhoneLi:nth-child(odd){
+        color: #fff;
+    }
+    .ZPhoneLi:nth-child(even){
+        color: #000;
+    }
+    .ZPhoneLi{
+        position: relative;
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+        .ZPhoneLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 200px;
+            text-align: center;
+            .ZPhoneLi-wrapPhone{
+                height: 24px;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+            }
+            .ZPhoneLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                text-align: center;
+            }
+            .ZPhoneLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+    .ZPhoneLi:nth-child(even){
+        .ZPhoneLi-wrap{
+            left: 80px;
+        }
+    }
+} 
+.ZPhoneDesLR,.ZPhoneParts{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    background: #f7f7f7;
+    .ZPhoneLRLi:nth-child(odd),
+    .ZPhonePartsLi:nth-child(odd){
+        margin-right: 4%;
+    }
+    .ZPhonePartsLi{
+        margin-bottom: 50px;
+    }
+    .ZPhoneLRLi,.ZPhonePartsLi{
+        position: relative;
+        float: left;
+        width: 48%;
+        img{
+            width: 100%;
+        }
+        .ZPhoneLRLi-wrap,
+        .ZPhonePartsLi-wrap{
+            height: auto;
+            position: absolute;
+            width: 400px;
+            right: 80px;
+            top: 60px;
+            text-align: center;
+            .ZPhoneLRLi-wrapPhone,
+            .ZPhonePartsLi-wrapPhone{
+                height: 24px;
+                font-size: 18px;
+                line-height: 25px;
+                color: #000;
+                text-align: center;
+            }
+            .ZPhonePartsLi-wrapTitle{
+                margin-bottom: 25px;
+            }
+            .ZPhoneLRLi-wrapTitle,
+            .ZPhonePartsLi-wrapTitle{
+                width: 100%;
+                height: auto;
+                margin-top: 5px;
+                font-size: 35px;
+                line-height: 45px;
+                color: #000;
+                text-align: center;
+            }
+            .ZPhoneLRLi-wrapDes{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 28px;
+                line-height: 35px;
+                color: #000;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            a{
+                position: relative;
+                text-align: center;
+                width: 100px;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 18px;
+                color: #008ddc;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    top:30px;
+                    right:43px;
+                    width: 14px;
+                    height: 2px;
+                    background: #008ddc;
+                    transition:all 0.2s linear 
+                }
+            }
+            a:hover{
+                &::after{
+                    width: 60%;
+                    right: 20px;
+                }
+            } 
+        }
+    }
+}
+.ZProduct{
+    position: relative;
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    background: #f7f7f7;
+    img{
+        width: 25%;
+    }
+    a{
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        width: 100px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 18px;
+        color: #008ddc;
+        &::after{
+            content: '';
+            position: absolute;
+            display: inline-block;
+            top:30px;
+            right:43px;
+            width: 14px;
+            height: 2px;
+            background: #008ddc;
+            transition:all 0.2s linear 
+        }
+    }
+    a:hover{
+        &::after{
+            width: 60%;
+            right: 20px;
+        }
+    } 
+}
+
+
+

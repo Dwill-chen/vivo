@@ -1,0 +1,253 @@
+@charset 'utf-8';
+//展示大图
+body{
+    color: #f7f7f7;
+}
+body{
+    #brandMain{
+        height: auto;
+        min-width: 1200px;
+    }
+}
+.titleWrap{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    img{
+        width: 190%;
+        margin-left: -45%;
+    }
+    .wordWrap{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        width: 40%;
+        height: 175px;
+        text-align: center;
+        p:nth-child(1){
+            font-size: 48px;
+            line-height: 67px;
+            text-shadow: 0 2px 12px rgba(0,0,0,.15);
+            white-space: nowrap;
+            font-weight: 700;
+            color: white
+        }
+        p:nth-child(2){
+            font-size: 24px;
+            line-height: 41px;
+            text-shadow: 0 4px 12px rgba(0,0,0,.15);
+            white-space: nowrap;
+            color: white
+        }
+        p:nth-child(3){
+            cursor: pointer;
+            display: inline-block;
+            padding: 12px 40px;
+            margin-top: 20px;
+            border-radius: 40px;
+            font-size: 16px;
+            transition: all .2s ease;
+            background: rgba(255, 255, 255, 0.5)
+        }
+        p:nth-child(3):hover{
+            color: #fff;
+            background: #008ddc!important
+        }
+    }
+}
+//分隔区域
+.SeparateWrap{
+    position: relative;
+    width: 100%;
+    height: 179px;
+    background: #000;
+    line-height: 179px;
+    text-align: center;
+    span{
+        position: relative;
+        color: #fff;
+        left: 28px;
+        font-size: 30px;
+        font-weight: 700;
+        &::before{
+            content: '';
+            position: absolute;
+            top:22px;
+            left: -28px;
+            width: 14px;
+            height: 2px;
+            background: #fff
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top:22px;
+            right: -28px;
+            width: 14px;
+            height: 2px;
+            background: #fff
+        }
+    }
+    a{
+        position: relative;
+        left: -70px;
+        top: 45px;
+        color: rgba(255, 255, 255, 0.7)
+    }
+}
+//phone展示区域
+.phoneShow{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .phoneGoods{
+        a{
+            position: relative;
+            .phoneGoodsWrap{
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                .phoneGoodsPic{
+                    width: 190%;
+                    margin-left: -45%;
+                }
+            }
+            .phoneGoodsDes{
+                position: relative;
+                width: 50%;
+                margin-top: -600px;
+                height: 600px;
+                box-sizing: border-box;
+                padding: 0 50px;
+                padding-top: 120px;
+                .phoneGoodsDate{
+                    font-size: 48px;
+                    line-height: 67px;
+                    text-shadow: 0 2px 12px rgba(0,0,0,0.15);
+                    white-space: nowrap;
+                    font-weight: 700;
+                    color: white;
+                }
+                .phoneGoodsBrowse{
+                    color: rgba(255,255,255,.6);
+                    font-size: 16px;
+                    padding-bottom: 21px;
+                    border-bottom: 1px solid rgba(208,208,208,.3);
+                }
+                .phoneGoodsTitle{
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 30px 0 10px;
+                    color: #fff;
+                    word-break: break-all;
+                    font-weight: 700;
+                    overflow: hidden;
+                }
+                .phoneGoodsDetails{
+                    font-size: 16px;
+                    line-height: 27px;
+                    margin: 0 0 30px;
+                    color: lightgray;
+                    max-height: 54px;
+                    overflow: hidden;
+                }
+                .phoneGoodsMore{
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: gray
+                }
+                .phoneGoodsMore:hover{
+                    color: #008ddc;
+                }
+            }
+        }
+    }
+    .phoneGoods:nth-child(odd){
+        a{
+            .phoneGoodsDes{
+                float: right;
+            }
+        }
+    }
+}
+//产品美学
+.productEsthetics{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    overflow: hidden;
+    .estheticsGoods{
+        width: 24.5%;
+        background: #1d1d1d;
+        box-sizing: border-box;
+        padding: 50px 30px 20px 30px;
+        overflow: hidden;
+        transition: all 0.5s linear;
+        .esGoodsDetails{
+            transition: all 0.5s linear;
+            P:nth-child(1){
+                font-size: 32px;
+                line-height: 51px;
+                color: #fff;
+                white-space: nowrap;
+            }
+            p:nth-child(2){
+                font-size: 20px;
+                line-height: 28px;
+                white-space: nowrap;
+                color: #fff;
+                opacity: .6;
+            }
+        }
+        .esGoodsImgS{
+            img{
+                transition: all 0.5s linear;
+                position: relative;
+                width:190px;
+                top: 180px;
+            }
+        }
+        .esGoodsDescribe{
+            position: relative;
+            width: 512px;
+            box-sizing: border-box;
+            transition: all 0.5s linear;
+            opacity: 0;
+            transform: matrix(1, 0, 0, 1, 0, 0); 
+            p,a{
+                padding: 33px 0;
+                font-size: 16px;
+                line-height: 32px;
+                color: #fff;
+                word-break: break-all;
+                border-top: 1px solid rgba(208,208,208,.15);
+            }
+            a:hover{
+                color: #008ddc;
+            }
+        }
+        .esGoodsImgL{
+            opacity: 1;
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            img{
+                transition: all 0.5s linear;
+                position: relative;
+                right: -520px;
+                top:-648px;
+                width: 410px;
+                opacity: 1;
+            }
+        }
+    }
+}
+//活动甄选
+.chooseObj{
+    .chooseObjWord{
+        p:nth-child(1){
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(208,208,208,.3);
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.main-swiper{
+    width:100%;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width:100%;
+    overflow: hidden;
+    cursor: pointer;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-pagination-progressbar-fill{
+    background-color: #0087cd !important;
+}
+.swiper-slide img{
+    width: 200%;
+}
+.vc-main-promos{
+    margin: 20px 0;
+    width:100%;
+    min-width: 1200px;
+    text-align: center;
+}
+.vc-main-box{
+    position: relative;
+    width:24%;
+    // min-width: 250px;
+    // height: 240px;
+    display: inline-block;
+    cursor: pointer;
+   
+}
+.vc-main-box:hover .vc-main-image img{
+    transform: scale(1.1);
+    
+}
+.vc-main-image{
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+.vc-main-image img{
+    width:150%;
+    // width:512px;
+    // height: 240px;
+    margin-left: -26%;
+    transition: all 0.25s linear;
+}
+.vc-main-con{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:10%;
+    text-align: center;
+}
+.vc-main-box h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.vc-main-box p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.vc-main-box:nth-of-type(3){
+    color:#fff;
+}

@@ -1,0 +1,45 @@
+@charset 'utf-8';
+
+.lhy-counter-wrapper {
+    width: 120px;
+    height: 35px;
+    margin: 8px;
+    font-size: 0;
+}
+
+.lhy-counter-btn,
+.lhy-counter-input {
+    display: inline-block;
+    font-size: 14px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.lhy-counter-btn {
+    width: 25%;
+    background: #d3d3d3;
+    vertical-align: top;
+    color: #fff;
+    cursor: pointer;
+}
+.lhy-counter-btn-down {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.lhy-counter-btn-up {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lhy-counter-input {
+    width: 50%;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lhy-counter-input::-webkit-outer-spin-button,
+.lhy-counter-input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
